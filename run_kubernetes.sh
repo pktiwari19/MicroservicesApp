@@ -12,4 +12,4 @@ kubectl create deploy microservicesapp --image=$dockerpath
 kubectl get deployment,pods
 
 # Step 4:
-# Forward the container port to a host
+kubectl port-forward deployment/microservicesapp 80:80
