@@ -1,1 +1,9 @@
-<paste log output from Kubernetes-mediated prediction, here>
+[root@ip-172-31-17-20 MicroservicesApp]# ./run_kubernetes.sh 
+deployment.apps/microservicesapp created
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/microservicesapp   0/1     1            0           0s
+
+NAME                                   READY   STATUS              RESTARTS   AGE
+pod/microservicesapp-bfd7bb4d6-bm69d   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+[root@ip-172-31-17-20 MicroservicesApp]# 
