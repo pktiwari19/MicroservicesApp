@@ -10,3 +10,8 @@ error: unable to forward port because pod is not running. Current status=Pending
 [root@ip-172-31-17-20 MicroservicesApp]# kubectl get pods
 NAME                               READY   STATUS    RESTARTS   AGE
 microservicesapp-bfd7bb4d6-bm69d   1/1     Running   0          2m
+
+[root@ip-172-31-17-20 MicroservicesApp]# kubectl port-forward deployment/microservicesapp 80:80
+Forwarding from 127.0.0.1:80 -> 80
+Forwarding from [::1]:80 -> 80
+Handling connection for 80
