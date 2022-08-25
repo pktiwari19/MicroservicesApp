@@ -1,4 +1,4 @@
-[![MicroservicesApp](https://circleci.com/pipelines/github/pktiwari19/MicroservicesApp.svg?style=svg?style=svg&circle-token=19bbe571690e7e92bc1b7d1c476963e6b75f874b)](https://app.circleci.com/pipelines/github/pktiwari19/MicroservicesApp)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/pktiwari19/MicroservicesApp/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/pktiwari19/MicroservicesApp/tree/main)
 
 ## Project Overview
 
