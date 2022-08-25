@@ -15,3 +15,15 @@ microservicesapp-bfd7bb4d6-bm69d   1/1     Running   0          2m
 Forwarding from 127.0.0.1:80 -> 80
 Forwarding from [::1]:80 -> 80
 Handling connection for 80
+
+--------------------------------
+Added Makeprediction output.
+
+voclabs:~/environment/MicroservicesApp (main) $ ./make_prediction.sh 
+Port: 80
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+voclabs:~/environment/MicroservicesApp (main) $ 
